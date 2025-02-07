@@ -1,0 +1,22 @@
+***To use this project, follow these steps:***
+
+*User Authentication:*
+Before accessing the app, you must enter your name and email. This step ensures that the app maintains user records and provides a personalized experience.
+
+*Listening Mode:*
+Once logged in, the screen will display "Listening." This means the app is waiting for activation. To activate it, you need to say its name.
+
+*Activation:*
+Each time "Listening" appears on the screen, call the assistant's name, "Alexa," to activate it. Upon activation, the screen will display "Alexa Activated."
+
+*Opening a Web Browser:*
+If you want to open a specific web browser, you can simply say its name. The assistant recognizes and supports certain predefined browsers, such as "LinkedIn" and "GitHub." Note that there is a limitation—the assistant cannot open web browsers that are not explicitly included in its functionality.
+
+*Opening Applications:*
+If you wish to open an application, include the word "app" in your command. For example, you can say, "Open app Calculator," and Alexa will recognize it as an application launch request.
+
+*General Queries:*
+If you have any other queries, the assistant will respond using OpenAI’s capabilities to provide accurate answers.
+
+***This project offers an interactive voice-controlled experience with predefined functionalities for browsing, app launching, and general inquiries.***
+
