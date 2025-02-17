@@ -76,22 +76,7 @@ else:
         os.remove("newvoice.mp3")
 
     # OPEN AI FUNCTION 
-    def openai(command):
-        client = OpenAI(
-        api_key="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"
-        )
-        completion = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "You are a helpful and virtual assistant to help in general tasks like Alexa, GPT and Google Cloud. You can't read messages but only can listen voices and respond them. Your name is Alexa. You are developed by a person named Azlan Khan. You shold Give Short responces as much as possible."},
-                {
-                    "role": "user",
-                    "content": command
-                }
-            ]
-        )
-        return completion.choices[0].message.content
-
+    Code Removed 
 
     # HANDLE MANUALL COMMANDS  
     def process_command(command):
